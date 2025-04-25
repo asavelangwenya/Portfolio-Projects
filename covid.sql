@@ -91,7 +91,7 @@ ORDER BY 1,2,3
 
 
 
--- USING A CTE TO RETURN THE TOTAL OF VACCINATED PEOPLE IN  EACH COUNTRY(THE MASTER TOTAL OF THE ROLLING SUM)
+-- USING A CTE TO RETURN THE TOTAL OF VACCINATED PEOPLE IN  EACH COUNTRY
  
  WITH Population_VS_Vaccination (Continent, Location, Date, Population, New_Vaccinations, RollingTotalNewVaccinations)
  as
